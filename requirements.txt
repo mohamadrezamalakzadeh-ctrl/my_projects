@@ -1,0 +1,6 @@
+ultralytics
+kagglehub
+pyyaml
+onnx
+onnxruntime
+opencv-python-headless
