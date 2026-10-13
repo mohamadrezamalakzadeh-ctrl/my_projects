@@ -1,6 +1,7 @@
 ultralytics
 kagglehub
-pyyaml
+PyYAML
 onnx
 onnxruntime
 opencv-python-headless
+numpy
