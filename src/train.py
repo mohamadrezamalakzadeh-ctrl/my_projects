@@ -1,6 +1,5 @@
 # __________________model training_______
-import shutil
-shutil.rmtree("/content/drive", ignore_errors=True)
+
 
 from google.colab import drive
 drive.mount('/content/drive')
