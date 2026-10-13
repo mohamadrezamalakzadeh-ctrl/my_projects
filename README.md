@@ -24,19 +24,24 @@ The dataset is not included in this repository because of its large size.
 
 ```text
 .
+## Project Structure
+
+```text
+.
 ├── assets/
 ├── data/
 ├── sample/
 ├── src/
-│   ├── train.py
 │   ├── detect.py
+│   ├── prepare_dataset.py
 │   ├── track.py
+│   ├── train.py
 │   └── utils.py
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-```
+
 
 ## Installation
 
