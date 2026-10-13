@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ---- مخصوص این پروژه ----
+
+# خروجی‌های Ultralytics
+runs/
+
+# دیتاست و داده‌ها
+bdd/
+datasets/
+*.zip
+
+# وزن‌های حجیم (onnx رو نگه می‌داریم)
+*.pt
+!weights/best.onnx
+
+# اطلاعات محرمانه
+kaggle.json
+
+# ادیتور
+.vscode/
