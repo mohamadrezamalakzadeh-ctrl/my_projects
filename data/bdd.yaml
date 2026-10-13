@@ -1,0 +1,13 @@
+path: /content/bdd
+train: train/images
+val: val/images
+nc: 8
+names:
+  0: car
+  1: truck
+  2: bus
+  3: motor
+  4: bike
+  5: person
+  6: rider
+  7: train
