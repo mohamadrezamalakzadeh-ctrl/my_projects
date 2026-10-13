@@ -5,7 +5,7 @@
 تشخیص اشیای صحنه‌ی رانندگی (ماشین، عابر پیاده، چراغ راهنما و ...)
 روی دیتاست BDD100K با YOLOv8.
 
-![sample](assets/sample_predictions.jpg)
+![sample](sample/val_batch0_labels.jpg)
 
 ## Results
 
