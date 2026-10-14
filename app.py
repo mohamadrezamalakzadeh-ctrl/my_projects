@@ -3,8 +3,8 @@ from ultralytics import YOLO
 from PIL import Image
 import gradio as gr
 import torch
-drive.mount('/content/drive')
-model=YOLO("best.pt")
+BASE_DIR = Path(__file__).parent
+model = YOLO(str(BASE_DIR / "best.pt"))
 
 
 if torch.cuda.is_available():
