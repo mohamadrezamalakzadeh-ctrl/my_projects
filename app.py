@@ -1,4 +1,6 @@
 from google.colab import drive
+from pathlib import Path
+
 from ultralytics import YOLO
 from PIL import Image
 import gradio as gr
