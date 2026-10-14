@@ -4,7 +4,7 @@ from PIL import Image
 import gradio as gr
 import torch
 drive.mount('/content/drive')
-model=YOLO("/content/drive/MyDrive/runs/bdd_runs/train/weights/best.pt")
+model=YOLO("best.pt")
 
 
 if torch.cuda.is_available():
